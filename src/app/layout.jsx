@@ -1,4 +1,4 @@
-// import "./globals.css";
+import "./globals.css";
 import { Oswald } from "next/font/google";
 import Header from "@/components/header";
 import "bootstrap/dist/css/bootstrap.min.css";

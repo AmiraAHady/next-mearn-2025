@@ -22,6 +22,7 @@ export default function Header() {
         <Link href="/about" className={(currentPath=='/about'?'bg-danger':'')}>About</Link>
         <Link href="/contactus" className={(currentPath=='/contactus'?'bg-danger':'')}>ContactUs</Link>
         <Link href="/login" className={(currentPath=='/login'?'bg-danger':'')}>Login</Link>
+        <Link href="/todo" className={(currentPath=='/todo'?'bg-danger':'')}>ToDos</Link>
       </Nav>
     </Container>
   </Navbar>
